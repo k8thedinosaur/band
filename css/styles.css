@@ -9,19 +9,17 @@ body {
 
 .body {
   width: 100%;
-  float: right;
 }
 
 .footer {
+  clear: both;
   text-align: center;
   font-style: italic;
   border: solid 2px blue;
-  float: right;
 }
 
 .column {
   float: left;
-  width: 30%;
   border: solid 2px red;
   padding: 5px;
 }
@@ -31,4 +29,18 @@ body {
   font-weight: bold;
   font-style: italic;
   color: rgb(105, 22, 11);
+}
+
+#members {
+  /* float: left; */
+  width: 25%;
+}
+
+#bio {
+  width: 50%;
+}
+
+#shows {
+  /* float: right; */
+  width:20%;
 }
