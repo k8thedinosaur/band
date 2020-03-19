@@ -1,0 +1,34 @@
+body {
+  background-color: rgb(80, 214, 169);
+  font-family: "Rockwell", sans-serif;
+}
+
+.header {
+  text-align: center;
+}
+
+.body {
+  width: 100%;
+  float: right;
+}
+
+.footer {
+  text-align: center;
+  font-style: italic;
+  border: solid 2px blue;
+  float: right;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  border: solid 2px red;
+  padding: 5px;
+}
+
+.name {
+  font-size: 50px;
+  font-weight: bold;
+  font-style: italic;
+  color: rgb(105, 22, 11);
+}
